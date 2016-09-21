@@ -1,0 +1,24 @@
+#######################################
+# Class
+#######################################
+PatPixelMeter	KEYWORD1
+PatPixelMeter2	KEYWORD1
+
+
+#######################################
+# Methods and Functions
+#######################################
+affiche	KEYWORD2
+clear	KEYWORD2
+zero	KEYWORD2
+
+#######################################
+# Constants
+#######################################
+METER_VJR_STEPS	LITERAL1
+METER_BLEU  LITERAL1
+METER_MAUVE_BLEU	LITERAL1
+METER_VJR_DEGRADE	LITERAL1
+METER_RAINBOW	LITERAL1
+METER_ROUGE	LITERAL1
+METER_COULEUR	LITERAL1
