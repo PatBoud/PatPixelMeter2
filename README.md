@@ -1,8 +1,10 @@
 # PatPixelMeter v2
 
+**Librairie Arduino pour utiliser des Adafruit NeoPixels comme jauges**
+
 PatBoud - 2016-09-21
 
-Librairie Arduino pour utiliser des Adafruit NeoPixels comme jauges
+
 
 Cette seconde version permet maintenant de gerer plusieurs jauges independantes
 avec une seule serie (strip, ou ring, comme tu veux) de NeoPixels.
