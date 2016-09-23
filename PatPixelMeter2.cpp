@@ -1,7 +1,7 @@
 /*
-PatPixelMeter.cpp - Librairie pour utiliser un NeoPixel Ring comme jauge
+PatPixelMeter2.cpp - Librairie pour utiliser un NeoPixel Ring comme jauge
 Par: PatBoud
-Date: 2015-11-13
+Date: 2016-09-21
 
 */
 #include <Arduino.h>

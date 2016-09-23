@@ -23,7 +23,7 @@ PatPixelMeter meterComplet = PatPixelMeter(&pixels, 15, 0); // Anneau en entier
 void setup() {
   // Initialisation de la ligne serial pour voir les messages d'information
   Serial.begin(115200);
-  
+
   // Initialisation obligatoire des NeoPixels
   pixels.begin();
   pixels.setBrightness(BRIGHTNESS);
@@ -40,28 +40,34 @@ void loop() {
   // EN UTILISANT LE METER COMPLET
   meterComplet.affiche(METER_VJR_STEPS, 100);
   delay(2000);
-  meterComplet.affiche(METER_VJR_STEPS, 0);
+  meterComplet.zero();
   delay(1000);
 
   meterComplet.affiche(METER_VJR_DEGRADE, 100);
   delay(2000);
-  meterComplet.affiche(METER_VJR_DEGRADE, 0);
+  meterComplet.zero();
   delay(1000);
 
   meterComplet.affiche(METER_RAINBOW, 100);
   delay(2000);
-  meterComplet.affiche(METER_RAINBOW, 0);
+  meterComplet.zero();
   delay(1000);
 
   meterComplet.affiche(METER_BLEU, 100);
   delay(2000);
-  meterComplet.affiche(METER_BLEU, 0);
+  meterComplet.zero();
   delay(1000);
 
   meterComplet.affiche(METER_MAUVE_BLEU, 100);
   delay(2000);
-  meterComplet.affiche(METER_MAUVE_BLEU, 0);
+  meterComplet.zero();
   delay(1000);
+
+	meterComplet.affiche(METER_COULEUR, 100, 0, 255, 0);  // Valeur RGB 0,255,0 , ce qui donnera un meter tout vert
+  delay(2000);
+  meterComplet.zero();
+  delay(1000);
+
 
   meterComplet.affiche(METER_ROUGE, 100);
   delay(2000);

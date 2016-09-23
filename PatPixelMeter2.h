@@ -1,7 +1,7 @@
 /*
-PatPixelMeter.h - Librairie pour utiliser un NeoPixel Ring comme jauge
+PatPixelMeter2.h - Librairie pour utiliser un NeoPixel Ring comme jauge
 Par: PatBoud
-Date: 2015-11-13
+Date: 2016-09-21
 
 */
 #ifndef PatPixelMeter2_h
