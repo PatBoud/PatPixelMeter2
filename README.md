@@ -15,16 +15,16 @@ Adafruit_NeoPixels.h
 
 ## Types de jauges supportees:
 
-METER_VJR_STEPS : Vert 0-50%, Jaune 51-75%, Rouge 76-100%
+`METER_VJR_STEPS` : Vert 0-50%, Jaune 51-75%, Rouge 76-100%
 
-METER_BLEU : Degrade de bleu
+`METER_BLEU` : Degrade de bleu
 
-METER_VJR_DEGRADE : Degrade de vert a jaune a rouge
+`METER_VJR_DEGRADE` : Degrade de vert a jaune a rouge
 
-METER_RAINBOW : Degrade arc-en-ciel
+`METER_RAINBOW` : Degrade arc-en-ciel
 
-METER_MAUVE_BLEU : Degrade de mauve a bleu
+`METER_MAUVE_BLEU` : Degrade de mauve a bleu
 
-METER_ROUGE : Que du rouge
+`METER_ROUGE` : Que du rouge
 
-METER_COULEUR : Couleur au choix, passee en valeur RGB. Voir exemple.
+`METER_COULEUR` : Couleur au choix, passee en valeur RGB. Voir exemple.
