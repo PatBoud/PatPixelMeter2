@@ -1,16 +1,19 @@
-#PatPixelMeter v2
-##Librairie Arduino pour utiliser des Adafruit NeoPixels comme jauges
+# PatPixelMeter v2
+
+PatBoud - 2016-09-21
+
+Librairie Arduino pour utiliser des Adafruit NeoPixels comme jauges
 
 Cette seconde version permet maintenant de gerer plusieurs jauges independantes
 avec une seule serie (strip, ou ring, comme tu veux) de NeoPixels.
 
-**Requiert:**
+## Requiert:
 
 Adafruit_NeoPixels.h
 
 
 
-**Types de jauges supportees:**
+## Types de jauges supportees:
 
 METER_VJR_STEPS : Vert 0-50%, Jaune 51-75%, Rouge 76-100%
 
